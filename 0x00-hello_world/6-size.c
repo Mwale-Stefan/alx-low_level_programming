@@ -3,8 +3,7 @@
 /**
  *main - print the string in the put function
  *
- *Description: using the main function
- this program prints "Programming is like building a multilingual puzzle'
+ *Description: ' Size is not grandeur, and territory does not make a nation'
  *Return:0
  */
 int main(void)
