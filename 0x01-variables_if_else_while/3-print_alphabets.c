@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <ctype.h>
-
 /**
- * Main- prints the alphabet in lowercase, and then in uppercase
+ *main- prints the alphabet in lowercase, and then in uppercase
  *
  * Description: using the main function
  * prints the alphabet in lowercase, and then in uppercase,then a new line.
