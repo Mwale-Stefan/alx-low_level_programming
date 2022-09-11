@@ -4,8 +4,8 @@
 /**
  * Main- prints the alphabet in lowercase, and then in uppercase
  *
- * Description:Using the main function
- * This proram prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * Description: using the main function
+ * prints the alphabet in lowercase, and then in uppercase,then a new line.
  *Return: 0
  */
 int main(void)
@@ -21,5 +21,5 @@ int main(void)
 		putchar(CH);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
