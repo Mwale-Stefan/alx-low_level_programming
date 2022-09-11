@@ -6,7 +6,7 @@
  * The arrange and display
  * Return: o
  */
-int main (void)
+int main(void)
 {
 	int a, b, c;
 
