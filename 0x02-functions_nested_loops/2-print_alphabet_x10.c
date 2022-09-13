@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 2-print_alphabet_x10.c - print letters
+ * print_alphabet_x10.c - print letters
  *
  * Return:0.
  */
