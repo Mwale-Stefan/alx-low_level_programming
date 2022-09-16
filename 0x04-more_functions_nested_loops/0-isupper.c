@@ -2,6 +2,7 @@
 
 /**
  * int _isupper(int c) - checks for uppercase character
+ * @c: character to be tested
  * Return: 1 or 0 depending on condition
  */
 
@@ -11,6 +12,5 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	
 	return (0);
 }
