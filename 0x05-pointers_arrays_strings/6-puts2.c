@@ -11,10 +11,13 @@
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < strlen(str); i += 2)
+	while (*(str + i) != '\0')
 	{
-		putchar(str[i]);
+		if (i % 2 == 0)
+			putchar(*(str + i));
+		i++;
 	}
+	putchar(10);
 }
