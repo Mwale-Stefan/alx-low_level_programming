@@ -10,7 +10,6 @@
 
 void rev_string(char *s)
 {
-	gets(*s);
 	strrev(*s);
 	putchar(*s);
 }
