@@ -6,21 +6,29 @@
 /**
  * puts_half -  prints the second half of string
  *
- *@str - parameter
+ *@str: string to print
  * Return: second half
  */
 void puts_half(char *str)
 {
-	int len = strlen(str);
-	int len1 = len / 2;
-	int len2 = len - len1;
-	char *s1 = malloc(len1 + 1);
-	char *s2 = malloc(len2 + 1);
+	int i, len = _strlen(str);
 
-	memcpy(s1, str, len1);
-	s1[len1] = '\0';
-	memcpy(s2, str + len1, len2);
-	s2[len2] = '\0';
-	free(s1);
-	free(s2);
+	for (i = ((len - 1) / 2) + 1; i < len; i++)
+		putchar(*(str + i));
+	putchar(10);
+}
+
+/**
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: the length of the given string
+ */
+
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
 }
