@@ -1,5 +1,6 @@
-#ifndef FOO_H_
-#define FOO_H_
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -9,4 +10,4 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 
-#endif // FOO_H_
+#endif /*MAIN_H*/_
