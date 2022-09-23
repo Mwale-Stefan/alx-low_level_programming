@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
  *_strcat -> is the function strcat
  *@dest: is the destination
